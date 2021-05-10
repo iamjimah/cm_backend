@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const connectDb = require("./config/connectDB");
 const usersRoute = require("./routes/usersRoute");
 const cors = require("cors");
-
+const accountsRoute =require('./routes/accountsRoute')
 dotenv.config();
 
 const app = express();
